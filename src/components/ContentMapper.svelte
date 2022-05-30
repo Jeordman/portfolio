@@ -1,7 +1,8 @@
 <script lang="ts">
+  import type Content from "../models/content.model"
   import VideoPlayer from './VideoPlayer.svelte';
 
-  export let contentList = null;
+  export let contentList: Content[] | null = null;
   export let darkBg = null;
 </script>
 
@@ -14,12 +15,14 @@
             {#each content.images as image}
               <img src={image.src} alt={image.alt} width={content.imageWidth} />
             {/each}
-          {:else if content.video}
-            <VideoPlayer
-              source={content.video.source}
-              autoplay={content.video.autoplay}
-              controls={content.video.controls}
-            />
+          {:else if content.videos}
+            {#each content.videos as video}
+              <VideoPlayer
+                source={video.src}
+                autoplay={video.autoplay}
+                controls={video.controls}
+              />
+            {/each}
           {/if}
         </header>
         <h2>{content.title}</h2>

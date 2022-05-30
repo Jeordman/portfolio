@@ -1,4 +1,6 @@
-export const Skills = [
+import type Content from "../models/content.model"
+
+export const Skills: Content[] = [
   {
     title: 'Devops',
     imageWidth: '60px',
