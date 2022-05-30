@@ -9,8 +9,6 @@
 {#if source}
   <YouTube
     options={{
-      width:"100px",
-      height:"100px",
       playerVars: {
         autoplay,
         controls,
