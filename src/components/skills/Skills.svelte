@@ -1,10 +1,21 @@
+<script lang="ts">
+import SkillSection from "./SkillSection.svelte";
+import { Skills } from "./skillText";
+</script>
 
-  <div>
-    devops
-    <img src={'./images/languages/aws.png'} width="28px" />
-    <img src={'./images/languages/docker.webp'} width="28px" />
-    <img src={'./images/languages/firebase.jpeg'} width="28px" />
+{#each Skills as skill}
+  <div class="skill-holder">
+    <header class="the-thing">
+      {#each skill.images as image}
+        <img src="{image.src}" alt="{image.alt}" width="{skill.imageWidth}">
+      {/each}
+    </header>
+    <h2>{skill.title}</h2>
+    {#each skill.info as info}
+      <p>{info}</p>
+    {/each}
   </div>
+{/each}
 
   <div>
     Languages
@@ -39,3 +50,21 @@
     <img src={'./images/frameworks/svelte.png'} width="28px" />
     <img src={'./images/frameworks/vue.webp'} width="28px" />
   </div>
+
+
+<style>
+.skill-holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+}
+ .the-thing{
+  
+ }
+
+</style>

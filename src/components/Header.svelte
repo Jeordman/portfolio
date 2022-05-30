@@ -5,8 +5,8 @@
   </section>
 </header>
 <div id="intro-banner">
-  <div id="intro-large-text">Hello 👋😄</div>
-  <div id="intro-sub-text">Im Jeordin, a Software Engineer</div>
+  <h1 id="intro-large-text">Hello 👋😄</h1>
+  <h2 id="intro-sub-text">Im Jeordin, a Software Engineer</h2>
 </div>
 
 <style>

@@ -1,6 +1,6 @@
 <script lang="ts">
   import * as animateScroll from 'svelte-scrollto';
-  import Skills from './components/Skills.svelte';
+  import Skills from './components/skills/Skills.svelte';
   import Experience from './components/Experience.svelte';
   import Activism from './components/Activism.svelte';
   import AboutMe from './components/AboutMe.svelte';
