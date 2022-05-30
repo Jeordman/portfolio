@@ -1,9 +1,25 @@
 <script lang="ts">
-  import Header from './components/Header.svelte';
-  import Main from './components/Main.svelte';
+  import * as animateScroll from 'svelte-scrollto';
+  import Skills from './components/Skills.svelte';
+  import Experience from './components/Experience.svelte';
+  import Activism from './components/Activism.svelte';
+  import AboutMe from './components/AboutMe.svelte';
+  import Footer from './components/Footer.svelte';
+  import Header from './components//header.svelte';
 </script>
 
-<div>
-  <Header />
-  <Main />
-</div>
+<Header />
+<button
+  on:click={() =>
+    animateScroll.scrollTo({ element: '.about-me', duration: 1000 })}
+  >Scroll to thing</button
+>
+<Skills />
+<hr style="border-bottom: 1px solid black" />
+<Experience />
+<hr style="border-bottom: 1px solid black" />
+<Activism />
+<hr style="border-bottom: 1px solid black" />
+<AboutMe />
+<hr style="border-bottom: 1px solid black" />
+<Footer />

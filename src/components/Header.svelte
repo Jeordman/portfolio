@@ -4,11 +4,15 @@
     <div id="me-image" />
   </section>
 </header>
+<div id="intro-banner">
+  <div id="intro-large-text">Hello 👋😄</div>
+  <div id="intro-sub-text">Im Jeordin, a Software Engineer</div>
+</div>
 
 <style>
   header {
     width: 100%;
-    height: 180px;
+    height: 159px;
   }
 
   #dark-bg {
@@ -40,4 +44,23 @@
     background-size: cover;
     z-index: 10;
   }
+
+  #intro-banner {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #intro-large-text {
+    font-size: 40px;
+  }
+
+  #intro-sub-text {
+    font-size: 28px;
+  }
+
+
+
 </style>
