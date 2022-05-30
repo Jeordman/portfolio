@@ -9,11 +9,6 @@
 </script>
 
 <Header />
-<button
-  on:click={() =>
-    animateScroll.scrollTo({ element: '.about-me', duration: 1000 })}
-  >Scroll to thing</button
->
 <Skills />
 <Experience />
 <Activism />

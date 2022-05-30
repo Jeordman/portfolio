@@ -26,7 +26,6 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
-    width: 100vw;
     max-width: 500px;
     padding: 0 20px;
 

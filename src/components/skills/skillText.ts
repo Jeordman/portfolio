@@ -1,11 +1,11 @@
 export const Skills = [
   {
     title: 'Devops',
-    imageWidth: '80px',
+    imageWidth: '60px',
     images: [
       { src: './images/languages/aws.png', alt: 'aws' },
       { src: './images/languages/docker.webp', alt: 'docker' },
-      { src: './images/languages/firebase.jpeg', alt: 'firebase' },
+      { src: './images/languages/firebase.png', alt: 'firebase' },
     ],
     info: [
       'as good as it gets',
@@ -18,7 +18,7 @@ export const Skills = [
     imageWidth: '80px',
     images: [
       { src: './images/languages/ts.jpeg', alt: 'ts logo' },
-      { src: './images/languages/go.jpeg', alt: 'docker logo' },
+      { src: './images/languages/go.jpeg', alt: 'go logo' },
       { src: './images/languages/php.png', alt: 'php logo' },
       { src: './images/languages/python.png', alt: 'python logo' },
       { src: './images/languages/js.png', alt: 'js logo' },
@@ -31,7 +31,7 @@ export const Skills = [
     images: [
       { src: './images/languages/mysql.png', alt: 'mysql logo' },
       { src: './images/languages/postgres.png', alt: 'postgres logo' },
-      { src: './images/languages/mongo.jpg', alt: 'mongo logo' },
+      { src: './images/languages/mongo.webp', alt: 'mongo logo' },
     ],
     info: [
       'Fully created and managed databases for my projects',
@@ -66,7 +66,6 @@ export const Skills = [
       title: 'My current setup',
       image: 'https://media.giphy.com/media/fh6nwbYdOZ18ObiAf8/giphy.gif',
       alt: 'gif of current setup',
-      width: '100%',
     },
   },
 ];

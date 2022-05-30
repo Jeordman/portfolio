@@ -6,9 +6,11 @@
   export let autoplay: 0 | 1 = 0;
 </script>
 
-{#if  source}
+{#if source}
   <YouTube
     options={{
+      width:"100px",
+      height:"100px",
       playerVars: {
         autoplay,
         controls,

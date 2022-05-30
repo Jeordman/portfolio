@@ -16,11 +16,7 @@
       {/each}
       {#if skill.example}
         <h3>{skill.example.title}</h3>
-        <img
-          src={skill.example.image}
-          alt={skill.example.alt}
-          width={skill.example.width}
-        />
+        <img src={skill.example.image} alt={skill.example.alt} />
       {/if}
     </div>
   {/each}
@@ -42,5 +38,12 @@
     width: 100%;
     max-width: 500px;
     padding: 0 20px;
+  }
+
+  .the-thing {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 </style>

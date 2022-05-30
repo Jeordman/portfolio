@@ -6,13 +6,14 @@
 </header>
 <div id="intro-banner">
   <h1 id="intro-large-text">Hello 👋😄</h1>
-  <h2 id="intro-sub-text">Im Jeordin, a Software Engineer</h2>
+  <h3 id="intro-sub-text">Im Jeordin</h3>
+  <h3 id="intro-sub-text">a Software Engineer</h3>
 </div>
 
 <style>
   header {
     width: 100%;
-    height: 159px;
+    height: 165px;
   }
 
   #dark-bg {
@@ -47,7 +48,6 @@
 
   #intro-banner {
     width: 100%;
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
