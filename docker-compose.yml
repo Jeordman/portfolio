@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  svelte-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: svelte-docker
+    ports:
+      - 3080:80
