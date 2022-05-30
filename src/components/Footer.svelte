@@ -1,4 +1,4 @@
-<div>
+<div class="socials">
   socials
   <img
     href="https://www.linkedin.com/in/jeordincallister/"
@@ -9,3 +9,13 @@
   />
   <img src={'./images/github-logo.png'} width="28px" />
 </div>
+
+<style>
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+  }
+</style>

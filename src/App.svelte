@@ -15,11 +15,7 @@
   >Scroll to thing</button
 >
 <Skills />
-<hr style="border-bottom: 1px solid black" />
 <Experience />
-<hr style="border-bottom: 1px solid black" />
 <Activism />
-<hr style="border-bottom: 1px solid black" />
 <AboutMe />
-<hr style="border-bottom: 1px solid black" />
 <Footer />

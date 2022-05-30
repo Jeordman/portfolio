@@ -1,5 +1,5 @@
 
   <div>
     Activism
-    <img src={'./images/earth-hero.png'} width="200px" />
+    <img src={'./images/earth-hero.png'} width="500px" />
   </div>
