@@ -1,8 +1,7 @@
 <script lang="ts">
-  import * as animateScroll from 'svelte-scrollto';
   import ContentMapper from './components/ContentMapper.svelte';
   import Footer from './components/Footer.svelte';
-  import Header from './components//header.svelte';
+  import Header from './components/Header.svelte';
 
   import { Skills } from './content/skillContent';
   import { Experience } from './content/experienceContent';

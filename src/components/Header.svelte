@@ -1,7 +1,10 @@
 <header>
   <section id="dark-bg" />
   <section id="me-image-bg">
-    <div id="me-image" />
+    <div
+      id="me-image"
+      style="background-image: url('https://bit.ly/3NFY5gi');"
+    />
   </section>
 </header>
 <div id="intro-banner">
@@ -37,7 +40,6 @@
   }
 
   #me-image {
-    background-image: url(./images/me.png);
     width: 155px;
     height: 155px;
     border-radius: 50%;
@@ -60,7 +62,4 @@
   #intro-sub-text {
     font-size: 28px;
   }
-
-
-
 </style>

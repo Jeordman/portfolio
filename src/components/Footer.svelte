@@ -7,7 +7,7 @@
     width="50px"
     target="_blank"
   />
-  <img src={'./images/github-logo.png'} width="28px" />
+  <img src={'./images/github-logo.png'} width="28px" alt="github logo" />
 </div>
 
 <style>
