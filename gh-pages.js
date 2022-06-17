@@ -4,7 +4,7 @@ ghpages.publish(
     "./public", // path to public directory
     {
         branch: "master",
-        repo: "https://github.com/Jeordman/portfolio.git",
+        repo: "https://github.com/Jeordman/portfolio-hosted.git",
         user: {
             name: "Jeordin Callister",
             email: "callisterjeordin@gmail.com",
