@@ -25,6 +25,7 @@
     "validate": "svelte-check"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "svelte-video-player": "^1.2.5",
     "svelte-youtube": "^0.0.2"
   }
